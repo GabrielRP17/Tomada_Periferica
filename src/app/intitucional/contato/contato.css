@@ -1,0 +1,27 @@
+.row-contato {
+    
+    background-color: black;
+    padding-top: 300px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+  
+.contato-background {
+    max-width: 800px;
+    padding: 20px;
+    color: white;
+}
+  
+.contato-form{
+    top:400px;
+    color: white;
+    left: 15%;
+}
+  
+.instagram-logo{
+    top:auto;
+    max-width: 25px;
+}

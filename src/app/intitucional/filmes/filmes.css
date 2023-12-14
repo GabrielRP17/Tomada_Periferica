@@ -1,0 +1,53 @@
+.row-filme{
+    height: 2000px;
+}
+
+
+.container-filmes{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgba(144, 1, 1, 0.734);
+    height:550px;
+    width: 1875px;
+    border-radius: 20px;
+    
+    
+}
+
+.sinopse{
+    width: 1000px;
+    height: 200px;
+    background-color:#ffffffea;
+    border-radius: 10px;
+    
+}
+
+.sinopse p{
+    color:black;
+    align-items: center;
+}
+
+.row-filme{
+    background-color: black;
+    padding-top: 300px;
+}
+
+.filme-background{
+    max-width: 800px;
+    padding: 20px;
+    color: white;
+}
+.poster-filme{
+    position: flex;
+    top: 55%;
+    left: 40px; /* Ou ajuste para um valor específico, como "10px" ou "20%" */
+    
+    
+}
+
+.poster10Conto{
+    border-radius: 10px;
+}

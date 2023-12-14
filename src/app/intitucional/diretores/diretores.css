@@ -1,0 +1,49 @@
+.row-diretor{
+    background-color:black;
+    padding-top: 230px;
+    height: 2000px;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    padding-left: 100px;
+    
+
+}
+
+.diretor-backround{
+    
+    height: 600px;
+    width: 1670px;
+    justify-content: space-evenly;
+    background-color: rgba(144, 1, 1, 0.734);
+    border-radius: 20px;
+
+}
+
+.container-nome-diretores{
+    border-radius: 20px;
+    height: 45px;
+    width: 1670px;
+    color:#fff;
+    
+}
+
+.container-nome-diretores, p{
+    position: center;
+}
+
+.container-diretores{
+    top: 55%;
+    left: 40px;
+    padding-left: 50px;
+}
+
+.container-descricao-diretores{
+    color:#fff;
+}
+
+.Diretor-img{
+    background-color: aqua;
+    border-radius: 20px;
+
+}
