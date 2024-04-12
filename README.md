@@ -1,5 +1,7 @@
 # Tomada Periférica
 
+🚧 Projeto em Construção 🚧
+
 <div>
   <img src = https://github.com/GabrielRP17/Tomada_Periferica/assets/89157653/ec7db907-43f2-467d-a7df-c636839da3b2 width = "200px" />
 <div/>
