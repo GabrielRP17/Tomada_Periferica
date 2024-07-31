@@ -7,22 +7,22 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    max-width: 100%;
+    overflow: hidden;
 }
 
 header{
     width: 100%;
-    padding: 60px 4%;
+    padding: 0px 4%;
     position: fixed;
     top: 0;
     left: 0;
     transition: 1s;
-    
+    background-color: transparent;
+    z-index: 1000;
+    box-sizing: border-box;
 }
 
-header.rolagem{
-    background-color: #fff;
-    padding: 20px 4%;
-}
 
 header.rolagem a{
     color: darkred;
@@ -30,11 +30,12 @@ header.rolagem a{
 
 header i{
     font-size: 30px;
-    
 }
 
 header ul{
     list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
 
 header ul li{
@@ -47,13 +48,13 @@ header ul li a{
     text-decoration: none;
 }
 
+
 .banner{
     height: 100vh;
     background-image: url(src\assets\imagens\Fundosite.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-
     display: flex;
     align-items: center;
     justify-content: center;
@@ -68,3 +69,5 @@ header ul li a{
     cursor: pointer;
     transition: .2s;
 }
+
+

@@ -1,49 +1,51 @@
 .row-diretor{
     background-color:black;
-    padding-top: 230px;
-    height: 2000px;
+    padding-top: 50px;
     display: flex;
-    align-items: left;
-    justify-content: left;
-    padding-left: 100px;
-    
-
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding-left: 150px;
+    padding-top: 300px;
 }
 
 .diretor-backround{
-    
-    height: 600px;
-    width: 1670px;
-    justify-content: space-evenly;
+    height: 350px;
+    width: 400px;
     background-color: rgba(144, 1, 1, 0.734);
-    border-radius: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
 
 }
 
 .container-nome-diretores{
-    border-radius: 20px;
-    height: 45px;
-    width: 1670px;
+    height: 25px;
+    width: 100%;
     color:#fff;
-    
+    text-align: center;
 }
 
-.container-nome-diretores, p{
-    position: center;
+.container-nome-diretores h3{
+    margin: 0;
 }
 
 .container-diretores{
-    top: 55%;
-    left: 40px;
-    padding-left: 50px;
+    margin-top: 20px;
 }
 
 .container-descricao-diretores{
     color:#fff;
+    margin-top: 20px;
+    text-align: center;
 }
 
 .Diretor-img{
     background-color: aqua;
     border-radius: 20px;
-
+    height: 250px;
+    width: 240px;
 }

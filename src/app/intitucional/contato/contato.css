@@ -1,20 +1,36 @@
 .row-contato {
-    
     background-color: black;
     padding-top: 300px;
-
     display: flex;
     align-items: center;
     justify-content: center;
-    
 }
   
 .contato-background {
     max-width: 800px;
-    padding: 20px;
+    padding: 0 20px;
     color: white;
 }
-  
+
+.sobre{
+    margin: 0 20px;
+}
+
+.contato-form{
+    margin: 0 20px;
+}
+
+@media (min-width: 768px){
+    .contato-background,
+    .contato-form{
+        padding: 0 40px;
+    }
+
+    .sobre{
+        margin: 0 40px;
+    }
+}
+
 .contato-form{
     top:400px;
     color: white;
