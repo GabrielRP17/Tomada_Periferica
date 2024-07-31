@@ -24,7 +24,7 @@ import { rootRouterConfig } from './app.routes';
     EntretenimentoComponent,
     FilmesComponent,
     PublicidadeComponent,
-    ContatoComponent
+    ContatoComponent,
   ],
   imports: [
     BrowserModule,
