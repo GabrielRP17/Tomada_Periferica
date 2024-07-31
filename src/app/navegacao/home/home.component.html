@@ -1,5 +1,14 @@
-<div class="Home">
-    <div class="background-home">
-        <img class="home-img" src="C:\Users\Gabri\OneDrive\Desktop\site Tomada periferica\Tomada_Periferica\src\assets\imagens\background_Filmes.jpg" icon="perfil2" alt="" rel="icon" alt="">
-    </div>
+<div class = container_home>
+  <div class = flex>
+      <div class="carousel-container">
+        <owl-carousel-o [options]="customOptions">
+          <ng-template carouselSlide>
+            <img class="carousel-image" src="imagens\background_Filmes.jpg"></ng-template>  
+          <ng-template carouselSlide>
+            <img class="carousel-image" src="imagens\Fundosite.jpg"></ng-template>  
+          <ng-template carouselSlide>
+            <img class="carousel-image" src="assets\Poster\BANNER OFICIAL.jpg"></ng-template>  
+        </owl-carousel-o>
+      </div>
+  </div>
 </div>

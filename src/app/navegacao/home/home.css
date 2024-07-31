@@ -1,0 +1,29 @@
+.container_home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    background-color: black;
+    max-width: auto;
+    overflow: hidden;
+  
+}
+  
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 90px;
+}
+  
+.carousel-container {
+    width: 1500px; /* não mexer */
+    height: auto;
+    overflow: hidden;
+}
+  
+.carousel-image {
+    height: auto;
+}
+  
