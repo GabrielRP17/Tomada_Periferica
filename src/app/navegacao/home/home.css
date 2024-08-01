@@ -29,4 +29,11 @@
     width: 400px;
     box-sizing: border-box;
 }
+
+.background_page{
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+    filter: brightness(0.6);
+}
   

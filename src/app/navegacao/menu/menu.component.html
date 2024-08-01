@@ -1,27 +1,30 @@
+<body>
+  <header class="header">
 
-<header id="header">
-  <div class="container">
-    <div class="flex">
-      <a href="http://localhost:4200/home"><img class="header-logo img" src="assets\Imagens\Logo\Logo.png" alt="" rel="icon" alt="" width="120" height="120" /></a>
-       <nav>
-          <ul>
-            <li><a [routerLink]="['/diretores']">Diretores</a></li>
-            <li><a [routerLink]="['/filmes']">Filmes</a></li>
-            <li><a [routerLink]="['/entretenimento']">Entretenimento</a></li>
-            <li><a [routerLink]="['/publicidade']">Publicidade</a></li>
-            <li><a [routerLink]="['/contato']">Contato</a></li>
-            </ul>
-        </nav>
-        <div class="btn-contato">
-          <a href="https://www.youtube.com/c/TomadaPeriférica"><img class="Youtubelogo" src="assets\Imagens\Logo\logo_youtube_branco-removebg-preview.png" alt="" rel="icon" alt="" width="80" height="165"></a>
-        </div>
-       </div>
-  </div>
+    <a href="http://localhost:4200/home" class="logo">
+      <img class="header-logo img" src="assets\Imagens\Logo\Logo.png" alt="" rel="icon" alt="" width="120"
+        height="120" />
+    </a>
+
+    <input type="checkbox" id="check">
+    <label for="check" class="icons">
+      <i class='bx bx-menu' id="menu-icon"></i>
+      <i class='bx bx-x' id="close-icon" ></i>
+    </label>
+
+    <nav class="navbar">
+
+      <a [routerLink]="['/diretores']" style="--i:0;">Diretores</a>
+      <a [routerLink]="['/filmes']" style="--i:1;">Filmes</a>
+      <a [routerLink]="['/entretenimento']" style="--i:2;">Entretenimento</a>
+      <a [routerLink]="['/publicidade']" style="--i:3;">Publicidade</a>
+      <a [routerLink]="['/contato']" style="--i:4;">Contato</a>
+
+      <div class="btn-contato">
+        <a href="https://www.youtube.com/c/TomadaPeriférica"><img class="Youtubelogo"
+            src="assets\Imagens\Logo\logo_youtube_branco-removebg-preview.png" alt="" rel="icon" alt="" width="80"
+            height="165"></a>
+      </div>
+    </nav>
   </header>
-
- 
-<script src="menu.js"></script>
-
-
-
-
+</body>
