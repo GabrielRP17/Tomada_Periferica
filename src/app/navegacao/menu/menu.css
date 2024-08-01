@@ -49,16 +49,6 @@ header ul li a{
 }
 
 
-.banner{
-    height: 100vh;
-    background-image: url(src\assets\imagens\Fundosite.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 
 .btn-contato button{
     width: 120px;

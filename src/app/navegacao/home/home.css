@@ -6,7 +6,6 @@
     background-color: black;
     max-width: auto;
     overflow: hidden;
-  
 }
   
 .flex {
@@ -14,16 +13,20 @@
     justify-content: center;
     align-items: center;
     width: auto;
-    height: 90px;
+    height: 800px;
 }
   
 .carousel-container {
-    width: 1500px; /* não mexer */
-    height: auto;
+    width: 1300px; /* não mexer */
+    height: 600px;
     overflow: hidden;
+    box-sizing: border-box;
+    
 }
   
 .carousel-image {
-    height: auto;
+    height: 750px;
+    width: 400px;
+    box-sizing: border-box;
 }
   
