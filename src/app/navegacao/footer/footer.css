@@ -5,7 +5,7 @@ footer {
     width: 100%;
     text-align: center;
     padding: 10px 0;
-    background-color: #333333;
+    background-color: rgba(0, 0, 0, 0.3); /* Preto com 30% de opacidade */
     color: white;
     z-index: 2;
 }

@@ -1,51 +1,52 @@
-.row-diretor{
-    background-color:black;
-    padding-top: 50px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-    padding-left: center;
-    padding-top: 300px;
+.row-diretor {
+  background-color: black;
+  padding-top: 300px;
+  display: flex;
+  justify-content: flex-start; /* alinhado à esquerda */
+  padding-left: 50px; /* opcional: um pouco de espaço da borda */
 }
 
-.diretor-backround{
-    height: 350px;
-    width: 400px;
-    background-color: rgba(144, 1, 1, 0.734);
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-    box-sizing: border-box;
-
+.diretor-backround {
+  width: 800px;
+  border-radius: 10px;
+  padding: 20px;
+  box-sizing: border-box;
 }
 
-.container-nome-diretores{
-    height: 25px;
-    width: 100%;
-    color:#fff;
-    text-align: center;
+.container-content {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 30px; /* espaço entre os diretores */
 }
 
-.container-nome-diretores h3{
-    margin: 0;
+
+.container-diretores {
+  width: 240px;
+  height: 250px;
+  flex-shrink: 0;
 }
 
-.container-diretores{
-    margin-top: 20px;
+.Diretor-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+  border: none;
+  display: block;
 }
 
-.container-descricao-diretores{
-    color:#fff;
-    margin-top: 20px;
-    text-align: center;
+.container-info {
+  flex-grow: 1;
+  color: white;
+  text-align: left; /* texto alinhado à esquerda */
 }
 
-.Diretor-img{
-    background-color: white;
-    border-radius: 20px;
-    height: 250px;
-    width: 240px;
+.container-info h3 {
+  margin-bottom: 15px;
+}
+
+.container-info p {
+  font-size: 1.1rem;
+  line-height: 1.4;
 }

@@ -14,12 +14,14 @@
 
     <nav class="navbar">
 
-      <a [routerLink]="['/diretores']" style="--i:0;">Diretores</a>
-      <a [routerLink]="['/filmes']" style="--i:1;">Filmes</a>
-      <a [routerLink]="['/entretenimento']" style="--i:2;">Entretenimento</a>
-      <a [routerLink]="['/publicidade']" style="--i:3;">Publicidade</a>
-      <a [routerLink]="['/contato']" style="--i:4;">Contato</a>
-
+      <nav class="navbar">
+        <a [routerLink]="['/diretores']" routerLinkActive="active" style="--i:0;">Diretores</a>
+        <a [routerLink]="['/filmes']" routerLinkActive="active" style="--i:1;">Filmes</a>
+        <a [routerLink]="['/entretenimento']" routerLinkActive="active" style="--i:2;">Entretenimento</a>
+        <a [routerLink]="['/publicidade']" routerLinkActive="active" style="--i:3;">Publicidade</a>
+        <a [routerLink]="['/contato']" routerLinkActive="active" style="--i:4;">Contato</a>
+      </nav>
+      
       <div class="btn-contato">
         <a href="https://www.youtube.com/c/TomadaPeriférica"><img class="Youtubelogo"
             src="assets\Imagens\Logo\logo_youtube_branco-removebg-preview.png" alt="" rel="icon" alt="" width="80"
